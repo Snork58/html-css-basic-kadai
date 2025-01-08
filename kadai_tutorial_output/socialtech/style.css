@@ -1,4 +1,6 @@
+/* *には疑似要素は含まれない。 */
 *, *::before, *::after {
+  /* box-sizing:border-box  paddngやborderによるズレを自動修正。初期値content-box */
   box-sizing: border-box;
 }
 
@@ -7,5 +9,23 @@ p {
 }
 
 body {
+  /* レスポンシブデザインのため、最大幅を指定 */
+  max-width: 1080px;
+  margin: 0 auto;
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic", Meiryo, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-pc {
+  font-size: 14px;
+}
+
+#nav-pc ul {
+  display: flex;
+  /* padding-leftの初期値は0であるが、ユーザーエイジェントスタイルシートで最頻値40pxで上書きされる。 */
+  padding-left: 0;
 }
