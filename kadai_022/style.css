@@ -9,15 +9,15 @@ p,a {
 header {
   margin-bottom:20px;
   background-color: rgb(244,79,79);
-  text-align:center;
+  text-align: center;
 }
 
 header h1 {
-  background-color: rgb(255,255,255);
+  color: rgb(255,255,255);
 }
 
 main {
-  margin: 10px;
+  padding: 10px;
 }
 
 #parent {
@@ -67,7 +67,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: rgb(254,178,168);
+  color: rgb(245,178,168);
 }
 
 @media screen and (max-width: 768px) {
