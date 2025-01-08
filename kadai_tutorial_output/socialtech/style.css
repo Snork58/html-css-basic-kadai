@@ -1,0 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic", Meiryo, Arial, sans-serif;
+}
