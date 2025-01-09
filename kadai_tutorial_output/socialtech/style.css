@@ -29,3 +29,19 @@ header {
   /* padding-leftの初期値は0であるが、ユーザーエイジェントスタイルシートで最頻値40pxで上書きされる。 */
   padding-left: 0;
 }
+
+#nav-pc li {
+  /* list-style: none; → 一貫性の担保、レイアウト調整、視覚的理解度改善によるアクセシビリティ向上も目的 */
+  list-style: none;
+}
+
+#nav-pc a {
+  /* text-decoration: none;　リンクの下線を消す */
+  text-decoration: none;
+  margin-left: 20px;
+  color: #0d0d0d;
+}
+
+#nav-pc a:hover {
+  text-decoration: underline;;
+}
