@@ -346,3 +346,40 @@ h3 {
   margin-left: 20px;
   font-weight: bold;
 }
+
+.contact-textbox {
+  border: 0;
+  border-bottom: 1px solid #707070;
+  background-color: #fafafa;
+  width: 400px;
+  height: 56px;
+}
+
+.contact-textarea {
+  border: 0;
+  border-bottom: 1px solid #707070;
+  background-color: #fafafa;
+  width: 400px;
+  height: 200px;
+}
+
+#contact dt {
+  font-weight: bold;
+}
+
+#contact dd {
+  margin-bottom: 16px;
+}
+
+#contact dd p {
+  margin: 0;
+}
+
+#contact dd ul {
+  padding-left: 0;
+}
+
+#contact dd li {
+  margin-bottom: 0;
+  list-style: none;
+}
