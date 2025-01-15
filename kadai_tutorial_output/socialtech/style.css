@@ -236,3 +236,20 @@ h3 {
 .culture-description {
   margin: 0;
 }
+
+#vision {
+  margin: 80px auto;
+}
+
+#vision > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.vision-box {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
