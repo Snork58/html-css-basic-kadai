@@ -383,3 +383,41 @@ h3 {
   margin-bottom: 0;
   list-style: none;
 }
+
+footer {
+  background-color: #0d0d0d;
+  text-align: center;
+  padding: 80px 80px 30px;
+}
+
+:#footer-logo {
+  margin-bottom: 30px;
+}
+
+#footer-link {
+  margin-bottom: 50px;
+}
+
+#footer-link > a {
+  text-decoration: none;
+  margin: 10px;
+  color: #ffffff;
+}
+
+#footer-link > a:hover {
+  text-decoration: underline;
+}
+
+#sns-footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+#sns-footer a {
+  margin-right: 30px;
+}
+#copyright {
+  color: #ffffff;
+  margin: 0;
+}
