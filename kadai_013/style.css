@@ -108,6 +108,10 @@ PC用のスタイル
     right: 20px;
   }
 
+  #logo-sp {
+    margin: 80px 0 30px 20px;
+  }
+  
   #nav-sp a {
     display: block;
   }
