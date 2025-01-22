@@ -579,4 +579,39 @@ footer {
   #product-more {
     text-align: left;
   }
+
+  #aboutus {
+    margin: 80px 20px;
+  }
+
+  #aboutus > div {
+    flex-direction: column;
+  }
+
+  .culture-table th {
+    font-size: 16px;
+  }
+
+  .culture-table {
+    margin-right: 0;
+    padding-right: 20px;
+    order: 2;
+  }
+
+  .culture-img {
+    width: 100%;
+    order: 1;
+  }
+
+  .culture-img2 {
+    margin-top: 0;
+  }
+
+  .culture-num {
+    padding: 0;
+  }
+
+  .culture-description {
+    margin: 0;
+  }
 }
