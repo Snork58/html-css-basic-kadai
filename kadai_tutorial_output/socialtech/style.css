@@ -614,4 +614,22 @@ footer {
   .culture-description {
     margin: 0;
   }
+
+  #vision {
+    margin: 80px 20px;
+  }
+
+
+
+  .vision-box > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .vision-box > div h4 {
+    margin-top: 60px;
+  }
+
+
 }
