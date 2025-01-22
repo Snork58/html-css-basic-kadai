@@ -545,4 +545,38 @@ footer {
     width: 100%;
     margin: 0;
   }
+
+  #product {
+    margin: 0;
+    padding: 10px 20px 0;
+  }
+
+  #product .product-flex {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  #product-left, #product-right {
+    width: 100%;
+    margin: 0;
+  }
+    
+  #prodcuct-left > div, #product-right > div {
+    margin: 0;
+    height:auto;
+  }
+
+  .product-explain {
+    position: relative;
+    margin: 0;
+  }
+
+  .product-exprain > h3 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+
+  #product-more {
+    text-align: left;
+  }
 }
