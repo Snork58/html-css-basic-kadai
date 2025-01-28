@@ -979,6 +979,15 @@ footer {
     font-size: 40px;
   }
 
+  #product-title h1 span {
+    font-size: 18px;
+  }
+
+  #prodcut-title > p {
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
   .product-section {
     flex-direction: column;
   }
